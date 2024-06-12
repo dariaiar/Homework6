@@ -1,4 +1,4 @@
-package meansOfTransport
+package transport
 
 import "fmt"
 

@@ -1,4 +1,4 @@
-package meansOfTransport
+package transport
 
 import "fmt"
 
@@ -14,5 +14,4 @@ func (b SpaceShip) ReceivePassengers(passenger string) string {
 func (b SpaceShip) DisembarkPassengers(passenger string) string {
 	fmt.Printf("\nPassanger %v disembarked from the Space Ship", passenger)
 	return passenger
-
 }

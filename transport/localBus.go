@@ -1,4 +1,4 @@
-package meansOfTransport
+package transport
 
 import "fmt"
 
@@ -12,6 +12,6 @@ func (b LocalBus) ReceivePassengers(passenger string) string {
 }
 
 func (b LocalBus) DisembarkPassengers(passenger string) string {
-	fmt.Printf("\nPassanger %v disembarked from the Local Bus", passenger)
+	fmt.Printf("\nPassanger %v disembarked from Local Bus", passenger)
 	return passenger
 }
